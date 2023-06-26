@@ -11,7 +11,7 @@ function MoviesPage({ movies }) {
     <div>
       <MoviesList movies={movies} />
       <Route path={`${match.url}/:movieId`}>
-        <MovieShow /> 
+        <MovieShow movies={movies} /> 
       </Route>
     </div>
   );
