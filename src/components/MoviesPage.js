@@ -1,6 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import MoviesList from "./MoviesList";
+import MoviesList from "./MoviesList,js";
+// import MoviesList from "./MoviesList";
 
 function MoviesPage({ movies }) {
   return (
