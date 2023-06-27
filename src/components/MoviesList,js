@@ -7,6 +7,6 @@ function MoviesList({ movies }) {
       <Link to={`/movies/${movieID}`}>{movies[movieID].title}</Link>
     </li>;
   });
-  return <ul>{renderMovies}</ul>
+  return <ul>{renderMovies}</ul>;
 }
- export default MoviesList;
+export default MoviesList;
